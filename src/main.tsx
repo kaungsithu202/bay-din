@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Answer from './components/Answer.tsx';
 import Questions from './components/Questions.tsx';
 import Squares from './components/Squares.tsx';
 import './index.css';

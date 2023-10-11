@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { NUM_LIST } from '../data';
-import { useNavigate } from 'react-router-dom';
 import useQueryState from '../utils/useQueryState';
 import Answer from './Answer';
 const Squares = () => {
